@@ -38,6 +38,11 @@ reader.question("What would you like to calculate?", function(input){
 		let sqrt = Math.sqrt(num1)
 		console.log(sqrt)
 	}
+
+	if (mathSymbol === "square") {
+		let square = Math.pow(num1, 2)
+		console.log(square)
+	}
 	// This line closes the connection to the command line interface.
 	reader.close()
 
