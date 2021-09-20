@@ -43,6 +43,11 @@ reader.question("What would you like to calculate?", function(input){
 		let square = Math.pow(num1, 2)
 		console.log(square)
 	}
+
+	if (mathSymbol === "cube") {
+		let cube = Math.pow(num1, 3)
+		console.log(cube)
+	}
 	// This line closes the connection to the command line interface.
 	reader.close()
 
