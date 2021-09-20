@@ -30,6 +30,10 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(num1 * num2)
 	}
 
+	if (mathSymbol === "/") {
+		console.log(num1 / num2)
+	}
+
 	if (mathSymbol === "sqrt") {
 		let sqrt = Math.sqrt(num1)
 		console.log(sqrt)
